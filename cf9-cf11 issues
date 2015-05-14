@@ -1,0 +1,8 @@
+No CGI.http_url 
+
+Using CF inbuilt UI has the added bonus of destroying old layouts with lots more extra CSS
+
+coldfusion.window.create and then coldfusion.window.load no longer work ( workaround initshow = true)
+
+_news_tab.cfm silly implicit array error
+
