@@ -7,3 +7,4 @@ coldfusion.window.create and then coldfusion.window.load no longer work ( workar
 
 _news_tab.cfm silly implicit array error
 
+onRequestEnd -> onAbort when using cflocation
