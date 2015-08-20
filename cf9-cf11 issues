@@ -1,12 +1,19 @@
 No CGI.http_url 
--> Incorrect CGI.http_url
+-> Incorrect CGI.http_url, non existant
 
 Using CF inbuilt UI has the added bonus of destroying old layouts with lots more extra CSS
-
++ JS instantiation of cfwindows is different
 coldfusion.window.create and then coldfusion.window.load no longer work ( workaround initshow = true)
 
-_news_tab.cfm silly implicit array error
+_news_tab.cfm silly implicit array error + many other implicit array errors reported
 
 onRequestEnd -> onAbort when using cflocation
+
+Add on service required to use PDF's does not always start up for some reason.
+
+- eternal random, which could though be on a service restart
+java.lang.NullPointerException
+			at coldfusion.image.CaptchaMaker.getUserFonts(CaptchaMaker.java:374)
+
 
 
